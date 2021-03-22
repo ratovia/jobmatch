@@ -6,9 +6,9 @@ module.exports = {
       zIndex: {
         '-10': '-10',
       },
-      backgroundImage: theme => ({
-        'hero-pattern': "url('static/road.jpg')",
-      })
+      backgroundImage: {
+        'hero-pattern': "url('/static/road.jpg')",
+      }
     }
   },
   
