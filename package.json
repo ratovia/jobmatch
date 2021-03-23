@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "@tkh/tailwind-plugin-flex-basis": "^1.4.0",
+    "dotenv": "^8.2.0",
     "gatsby": "^3.0.1",
+    "gatsby-source-microcms": "^1.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
