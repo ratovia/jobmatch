@@ -11,7 +11,9 @@ const index = ({props}) => {
         <ul className="flex justify-between flex-wrap">
           {props.allMicrocmsCompany.edges.slice(0,3).map((node) => {
             return (
-              <Card props={node} />
+              <li className="w-1/3 flex-basis-3 h-96 mb-8">
+                <Card props={node} />
+              </li>
             )
           })}
         </ul>
@@ -21,7 +23,9 @@ const index = ({props}) => {
         <ul className="flex justify-between flex-wrap">
           {props.allMicrocmsCompany.edges.map((node) => {
             return (
-              <Card props={node} />
+              <li className="w-1/3 flex-basis-3 h-96 mb-8">
+                <Card props={node} />
+              </li>
             )
           })}
         </ul>
