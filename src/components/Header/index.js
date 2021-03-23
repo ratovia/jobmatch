@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 
 const index = () => {
   return (
-    <header className="w-screen h-20 flex items-center py-0 px-8 bg-transparent z-10 fixed top-0 left-0">
+    <header className="w-screen h-20 flex items-center py-0 px-8 bg-transparent z-10 fixed top-0 left-0 shadow">
       <div className="flex justify-around items-center">
         <h1 className="text-3xl text-gray-600">JobMatch</h1>
       </div>
