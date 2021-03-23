@@ -11,7 +11,7 @@ const index = () => {
         <h4 className="my-2 text-gray-600 text-base">株式会社SmallStack</h4>
         <ul>
           <li className="inline-block bg-blue-400 p-2 rounded-2xl min-w-20">
-            <p className="text-sm text-white">エンジニア</p>
+            <p className="text-xs text-white">エンジニア</p>
           </li>
         </ul>
       </div>
