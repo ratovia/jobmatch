@@ -6,7 +6,7 @@ import Footer from "../components/Footer"
 const company = ({data}) => {
   return (
     <div>
-      <Header></Header>
+      <Header transparent={false} shadow={true}></Header>
       <Company props={data}></Company>
       <Footer></Footer>
     </div>

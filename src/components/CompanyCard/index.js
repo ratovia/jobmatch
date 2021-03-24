@@ -3,7 +3,6 @@ import "tailwindcss/tailwind.css"
 // import image from "../../../static/road.jpg"
 
 const index = ({props}) => {
-  console.log(props)
   return (
     <div className="w-full h-full bg-white shadow-lg">
       <img className="w-full h-1/2" src={props.node.image.url} alt="株式会社SmallStack"></img>

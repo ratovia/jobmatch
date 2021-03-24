@@ -5,7 +5,7 @@ import Hero from "../components/Hero"
 export default function Home() {
   return (
     <div>
-      <Header></Header>
+      <Header transparent={true} shadow={false}></Header>
       <Hero></Hero>
     </div>
   )
