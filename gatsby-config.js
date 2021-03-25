@@ -24,5 +24,8 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: "gatsby-plugin-use-query-params",
+    }
   ],
 }

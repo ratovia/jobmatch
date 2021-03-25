@@ -42,7 +42,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return
   }
 
-  const { edges, pageInfo } = result.data.allMicrocmsCompany
+  const { edges } = result.data.allMicrocmsCompany
 
   createPaginatedPages({
     edges: edges,
@@ -50,6 +50,5 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     pageTemplate: './src/templates/company.js',
     pageLength: 3,
     pathPrefix: 'company',
-    context: {}
   })
 }
