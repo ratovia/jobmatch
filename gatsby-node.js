@@ -48,7 +48,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     edges: edges,
     createPage: createPage,
     pageTemplate: './src/templates/company.js',
-    pageLength: 3,
+    pageLength: 9,
     pathPrefix: 'company',
   })
 }
