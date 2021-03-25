@@ -29,7 +29,8 @@
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.8",
     "prettier": "2.2.1",
-    "tailwindcss": "^2.0.4"
+    "tailwindcss": "^2.0.4",
+    "tailwindcss-pseudo-elements": "^1.5.1"
   },
   "repository": {
     "type": "git",

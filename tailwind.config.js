@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
@@ -24,5 +26,25 @@ module.exports = {
   variants: {
     'flex-basis': ['responsive'],
   },
-  plugins: [require('@tkh/tailwind-plugin-flex-basis/flex-basis.js')()],
+  plugins: [
+    require('tailwindcss-pseudo-elements'),
+    require('@tkh/tailwind-plugin-flex-basis/flex-basis.js')(),
+    plugin(function ({ addUtilities }) {
+      addUtilities(
+        {
+          '.empty-content': {
+            content: "''",
+          },
+          '.flex-empty': {
+            width: "32%",
+            display: "block",
+            height: "0",
+            content: "''",
+          },
+
+        },
+        ['after']
+      )
+    }),
+  ],
 }
